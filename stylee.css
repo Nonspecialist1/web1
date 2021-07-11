@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+a {
+  color:green;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 3px solid gray;
+  margin: 0;
+  padding: 15px
+}
+h2 {
+  color: green;
+}
