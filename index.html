@@ -4,35 +4,11 @@
 <head>
   <title>WEB1 - Welcome</title>
   <meta charset="utf-8">
-  <script>
-    function nightdayHandler(self){
-        var target = document.querySelector('body');
-        if(self.value === 'night'){
-          target.style.backgroundColor = 'black';
-          target.style.color = 'white';
-          self.value = 'day';
 
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length){
-            alist[i].style.color = 'gold';
-            i = i + 1;
-          }
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-          } else {
-          target.style.backgroundColor = 'white';
-          target.style.color = 'black';
-          self.value = 'night';
+  <script src="colors.js"></script>
 
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length){
-            alist[i].style.color = 'blue';
-            i = i + 1;
-          }
-        }
-      }
-  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L12SJTN2Y0"></script>
   <script>
